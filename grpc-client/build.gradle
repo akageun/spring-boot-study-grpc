@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(path: ":grpc-common", configuration: 'default')
+
+    compile('org.springframework.boot:spring-boot-starter-web')
+}
